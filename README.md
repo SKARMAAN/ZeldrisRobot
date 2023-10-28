@@ -35,7 +35,7 @@
 <a href="https://github.com/IDN-C-X/ZeldrisRobot/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/IDN-C-X/ZeldrisRobot?label=Contributors&style=social&logo=github">
 </a><br>
-<a href="https://github.com/IDN-C-X/ZeldrisRobot/archive/refs/heads/main.zip">
+<a href="https://github.com/Armaan/ZeldrisRobot/archive/refs/heads/main.zip">
     <img src="https://img.shields.io/github/repo-size/IDN-C-X/ZeldrisRobot?label=Repo Size&style=social&logo=github">
 </a>
 </p>
