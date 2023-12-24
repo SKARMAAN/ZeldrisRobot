@@ -42,7 +42,7 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://kvbtopvx:rn5dFC0Q9FYOrf9koHbpEaPu9HFuA4cz@cornelius.db.elephantsql.com/kvbtopvx"  # needed for any database modules
-    MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
+    MESSAGE_DUMP = '-1001932566732'  # needed to make sure 'save from' messages persist
     REDIS_URL = "redis://default:ctYvtErg2kYzBWkfq1YnJsfh6NrSY76X@redis-19332.c299.asia-northeast1-1.gce.cloud.redislabs.com:19332"  # needed for afk module, get from redislab
     LOAD = []
     NO_LOAD = []
@@ -74,7 +74,7 @@ class Config(object):
     ALLOW_EXCL = False  # DEPRECATED, USE BELOW INSTEAD! Allow ! commands as well as /
     CUSTOM_CMD = False  # Set to ('/', '!') or whatever to enable it, like ALLOW_EXCL but with more custom handler!
     API_OPENWEATHER = None  # OpenWeather API
-    SPAMWATCH_API = None  # Your SpamWatch token
+    SPAMWATCH_API = "Ipu9B56ikB0BfGI2DlwHorkbyE7cserdaHBY9aYqhMJku4~kMF_faMtidvoP6W8c"  # Your SpamWatch token
     WALL_API = None
     SPAMMERS = None
 
