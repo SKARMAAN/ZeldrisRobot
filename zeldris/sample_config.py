@@ -32,25 +32,25 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    TOKEN = ""  # Take from @BotFather
+    TOKEN = "6536934928:AAGz2-ARFY6CkU8MD1kcWccbu7TWAV9TZLw"  # Take from @BotFather
     OWNER_ID = (
-        ""  # If you dont know, run the bot and do /id in your private chat with it
+        "5332414680"  # If you dont know, run the bot and do /id in your private chat with it
     )
-    OWNER_USERNAME = ""
-    API_HASH = None  # for purge stuffs
-    API_ID = None
+    OWNER_USERNAME = "@Armaan512"
+    API_HASH = "06baef4020832888ccf3ebf4e746d52b"  # for purge stuffs
+    API_ID = "29098103"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "sqldbtype://username:pw@hostname:port/db_name"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://kvbtopvx:rn5dFC0Q9FYOrf9koHbpEaPu9HFuA4cz@cornelius.db.elephantsql.com/kvbtopvx"  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
-    REDIS_URL = "redis://something@nothing/anything:10002"  # needed for afk module, get from redislab
+    REDIS_URL = "redis://default:ctYvtErg2kYzBWkfq1YnJsfh6NrSY76X@redis-19332.c299.asia-northeast1-1.gce.cloud.redislabs.com:19332"  # needed for afk module, get from redislab
     LOAD = []
     NO_LOAD = []
     WEBHOOK = False
     URL = None
-    MONGO_URI = ""
+    MONGO_URI = "mongodb+srv://godgamer9434:0ilJ0eM4yi5Z5hmd@cluster0.yx21dk8.mongodb.net/?retryWrites=true&w=majority"
     MONGO_PORT = 27017  # leave it as it is
-    MONGO_DB = "Zeldris"
+    MONGO_DB = "godgamer9434"
 
     # OPTIONAL
     DEV_USERS = (
